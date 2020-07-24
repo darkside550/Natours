@@ -27,7 +27,7 @@
         <div class="navigation__background">&nbsp;</div>
 
         <nav class="navigation__nav">
-            <ul class="navigation__list">
+            <ul class="navigation__list" id="menu">
                 <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natous</a></li>
                 <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benfits</a></li>
                 <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
@@ -494,6 +494,19 @@
             </div>
         </section>
         -->
+        <script>
+            // hiding navbar on clicking a link 
+            var menu = document.getElementById('menu');
+            var closeIcon = document.getElementById("navi-toggle");
+    
+            menu.addEventListener('click', handleMenuClick);
+    
+            function handleMenuClick(event) {
+                if (event.target instanceof HTMLAnchorElement) {
+                    closeIcon.checked = false;
+                }
+            }
+        </script>  
 
 </body>
 
