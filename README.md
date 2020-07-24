@@ -1,7 +1,7 @@
 # Natours
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a901a6b0-cea3-4a30-8821-d933f3507f12/deploy-status)](https://app.netlify.com/sites/natours-saad/deploys) \
-A Landing page for a outdoor Travel Agency. \
+A Landing page for an outdoor Travel Agency. \
 View [Here](https://natours-saad.netlify.app)
 
 ## Learnings
