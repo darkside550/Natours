@@ -26,7 +26,7 @@ View [Here](https://natours-saad.netlify.app)
 
 ## Additional
 
-Implemented ![](https://img.shields.io/badge/Script-Javascript-green) for using closing the navigation bar after a link is clicked.
+Implemented ![](https://img.shields.io/badge/Script-Javascript-green) for closing the navigation bar after a link is clicked.
 
 ## Technology Stack
 
